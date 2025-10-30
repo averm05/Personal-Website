@@ -1,0 +1,145 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* font */
+p {
+    font-family:monospace;
+}
+
+a {
+    font-family: 'regular';
+    font-size: 2rem;
+    font-style: bold;
+    color: black;
+}
+
+body {
+    background-image: url('bgimage.jpg');
+}
+
+/* header */
+.header {
+    display:column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 3%;
+    padding: 1% 1%;
+    background-color: #f5e8dd;
+    border-radius: 1rem;
+    }
+
+.header h1{
+    font-size: 6rem;
+}
+
+.header h2{
+    font-size: 3rem;
+}
+
+/* intro */
+
+.intro {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin: 2% 3%;
+    padding: 1% 1%;
+}
+
+.intro p{
+    color: white;
+}
+
+
+/* divider 1 */
+.divider1 {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin: 2% 3%;
+    padding: 1% 1%;
+}
+
+.divider1 p{
+    color: white;
+}
+
+
+/* extracirriculars */
+.extracirriculars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.item {
+    height: 200px;
+    width: 400px;
+    background-color: #f5e8dd;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    border: 3px dotted black;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.item a{
+    font-family: "Lacquer";
+}
+
+
+
+/* passion projects */
+.passionprojects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.project {
+    height: 200px;
+    width: 400px;
+    background-color: #f5e8dd;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    border: 3px dotted black;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.1);
+}
+
+.project a{
+    font-family: "Lacquer";
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    align-items: center;
+    margin: 3% 3%;
+    padding: 2% 2%;
+    background-color: powderblue;
+}
+
