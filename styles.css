@@ -30,8 +30,41 @@ a {
 }
 
 body {
-    background-image: url('bgimage.jpg');
+    background-image: url("bgstars.jpeg") ;
+
 }
+
+.cornerLogo {
+    top: 2rem;
+    float: left;
+    border-radius: 100%;
+}
+
+/* topnav */
+.topnav {
+
+    overflow: hidden;
+    background-color: #334663;
+    font-family: "Lacquer";
+  }
+  
+  /* Style the topnav links */
+.topnavleftside a {
+    font-family: "Lacquer";
+    margin: 0% 1%;
+    float: left;
+    display: block;
+    color: #a3c5f1;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.topnavrightside img {
+    margin: 0% 1%;
+    float: right;
+}
+
 
 /* header */
 .header {
@@ -54,6 +87,11 @@ body {
     font-size: 3rem;
 }
 
+.pages {
+    align-items: start;
+}
+
+
 /* intro */
 
 .intro {
@@ -64,13 +102,14 @@ body {
     padding: 1% 1%;
 }
 
-.intro h2{
+.intro h2{  
     align-items: center;
     text-align: center;
     color: white;
 }
 
 .intro p{
+    display:flex;
     color: white;
 }
 
@@ -117,17 +156,61 @@ body {
     border-radius: 1rem;
     transition: transform 0.3s ease;
 }
+
+.aboutme img{
+    display: flex;
+    align-items: center;
+    
+}
+
+.aboutme:hover {
+    transform: scale(1.05);
+}
+
 /* basic info box */
 .basicinfo {
-    align-items: start;
-    height: 350px;
-    width: 500px;
+    align-items: normal;
+    height: 280px;
+    width: 700px;
     background-color: #f5e8dd;
     margin: 1% 1%;
     padding: 1% 1%;
     border: 5px double rgb(80, 52, 103);
     border-radius: 1rem;
     transition: transform 0.3s ease;
+}
+
+.basicinfo h3{
+    text-align: start;
+    margin: 3.0%;
+
+}
+
+.basicinfo h2{
+    color: black;
+    margin: 1%;
+    font-size: 2rem;
+}
+
+.basicinfo:hover {
+    transform: scale(1.05);
+}
+
+.basicinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.introduction p{
+    display: flex;
+    margin: 3% 3%;
 }
 
 
@@ -151,7 +234,6 @@ body {
 .item a{
     font-family: "Lacquer";
 }
-
 
 
 /* passion projects */
